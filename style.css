@@ -264,3 +264,20 @@ align-items: center;
     transition: transform 0.6s ease;}
 .contact-icon:hover{
     transform: scale(1.5); }
+
+
+    @media screen and (max-width: 850px) {
+        .Abouttext {
+          
+            margin-top: 12%;
+        }
+        li {
+            list-style: none;
+            padding: 7px;
+            font-size: 1.0rem;
+            margin-left: -4%;
+        }
+    }
+    
+
+   
