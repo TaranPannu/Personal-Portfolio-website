@@ -1,0 +1,200 @@
+.Projects{
+    display: flex;
+    justify-content: space-around;
+gap: 15px;
+flex-wrap: wrap;  
+}
+
+.proj-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+ 
+    .proj {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 12px 12px 36px 8px  rgb(144, 143, 143);   
+             height: 450px;
+        width: 300px;
+        border-radius: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.vogx-pic{
+    height: 400px;
+    width: 250px;
+    border-radius: 25%; 
+}
+
+  
+/*
+  .p-1 {
+        background-image: url('./mainVogx.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+.vogx-text {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #6f1a00; 
+    padding: 10px 20px;
+    color: white;
+    font-size: 29px;
+    border-radius: 5px;
+}
+*/
+.vogx-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(25, 101, 187); /* Orange background */
+    padding: 10px 20px;
+    color: white;
+    font-size: 27px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 30%;
+    text-decoration: none; 
+
+}
+.vogx-text{
+   
+    height: 45px;
+    width: 100%;
+    border-radius: 15%;
+    color: rgb(104, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+margin-top: 22px;
+}
+.proj.p-1 {
+    background-image: url('./mainVogx.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Hide overflow content */
+    transition: transform 0.5s ease, background-image 0.5s ease;
+}
+.proj.p-2{
+    background-image: url('./social_media.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Hide overflow content */
+    transition: transform 0.5s ease, background-image 0.5s ease;}
+
+    .proj.p-1:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    background-image: none; /* Remove background image on hover */
+}
+.proj.p-3{
+    background-image: url('./weather.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Hide overflow content */
+    transition: transform 0.5s ease, background-image 0.5s ease;}
+
+    .proj.p-1:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    background-image: none; /* Remove background image on hover */
+}
+.proj.p-4{
+    background-image: url('./covid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Hide overflow content */
+    transition: transform 0.5s ease, background-image 0.5s ease;}
+
+    .proj.p-1:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    background-image: none; /* Remove background image on hover */
+}
+.proj.p-5{
+    background-image: url('./profile.jpg');
+
+}
+.proj-content {
+    cursor: pointer;
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    transition: opacity 1.5s ease, display 0.5s ease;
+}
+.Vog{
+ display: flex;
+ justify-content: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+.proj.p-1:hover .proj-content {
+    opacity: 1;
+    display: block;
+}
+.proj.p-2:hover .proj-content {
+    opacity: 1;
+    display: block;
+}
+p{
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Outfit', cursive; 
+}
+.contact-Cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131f3d;
+    padding: 20px;
+}
+
+.contact-me {
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Outfit', cursive;  
+}
+
+.lin {
+    width: 180px;
+    height: 1px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.contat {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    margin-left: -1%;
+}
+
+.contact-icon {
+    width: 25px;
+    height: 25px;
+}

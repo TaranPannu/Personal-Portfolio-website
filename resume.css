@@ -1,0 +1,182 @@
+.leftlist {
+    margin-top: 5%;
+    width: 270px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 4px 0px 3px 0px rgba(203, 203, 203, 0.5); /* Only a shadow on the right side */
+    height: 350px;
+    display: flex;
+
+}
+
+.list-item{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.leftlist ul li {
+    cursor: pointer;
+}
+ul{
+    margin-top:40px ;
+}
+li{
+    margin-bottom: 10px;
+}
+.leftlist ul li.selected {
+    background-color: #131f3d; /* Background color when selected */
+    color: white; /* Text color when selected */
+    width: 200px;
+    animation: anim 1.0s ease 1;
+    transition: color 0.9s ;
+}
+
+
+
+@keyframes anim {
+    from{
+        width: 20px;
+    }
+   
+ to{
+        width: 200px;
+    }
+}
+.resume {
+    display: flex;
+gap: 10px;
+justify-content: center;
+flex-wrap: wrap;  
+
+}
+
+.dots{
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    display: flex;
+  position: inherit;
+margin-top: 43px;
+  margin-left: 10px;
+   background-color: rgb(255, 255, 255);  
+  }
+  .top-dot{
+    margin-top: 55px;
+
+}
+.leftaside {
+    width: 35px;
+    height: 350px;
+    background-color: #131f3d;
+    margin-right: 0px; /* Add some margin between leftaside and tabs */
+}
+.rightcontent {
+    margin-top: 5%;
+    width: 600px;
+    height: 350px;   
+    overflow: auto;
+ 
+}
+
+/* Hide content by default */
+.work-content,
+.education-content {
+    display: none;
+}
+
+.edu-container{
+    margin-top: 46px;
+display: flex;
+}
+.dot{
+    margin-left: 6%;
+margin-top:2.5px ;
+margin-right:13px ;  
+  width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff5823;
+}
+.uni{
+    font-size: large ;
+  color: #ff5823;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Outfit', cursive;  
+        font-size: 19px;
+}
+.year{
+    background-color: #ff5823;
+border-radius: 14px;
+color: white;
+font-size: 14px;
+padding: 4px 12px;
+margin-left: 15%;
+-webkit-font-smoothing: antialiased;
+font-family: 'Outfit', cursive;  
+      font-size: 15px;
+}
+.degree{
+margin-left: 10.6%;
+margin-top:5px ;
+-webkit-font-smoothing: antialiased;
+font-family: 'Outfit', cursive;  
+      font-size: 19px;
+
+}
+.edu-container{
+    margin-top: 46px;
+    display: flex; 
+}
+.year2{
+    margin-left: 35%;
+
+}
+.year3{
+margin-left: 31.5%;
+}
+.year6{
+    margin-left: 40%;
+
+}
+.year4{
+    margin-left: 7%;;
+}
+.year5{
+    margin-left:  50.5%;
+}
+
+.skill-main-cont{
+ 
+    display: flex;
+    justify-content: space-around;
+gap: 15px;
+flex-wrap: wrap;  
+}
+.skill-container {
+    margin-left: 30px;
+    margin-right: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Optional: Adjust alignment as needed */
+    gap: 95px; /* Optional: Add gap between skill items */
+}
+
+.dot-skill{
+    margin-top:4.5px ;
+    margin-right:5px ;  
+      width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #ff5823;
+}
+.oneskill{
+    margin-top: 20px;
+ display: flex;
+ width: auto;
+}
+.i{
+Color: #131f3d;
+
+}
+.j{
+    margin-left: -39%;
+}
