@@ -267,15 +267,15 @@ align-items: center;
 
 
     @media screen and (max-width: 850px) {
-        .Abouttext {
+        .Abouttext  {
           
-            margin-top: 12%;
+            margin-top: 49px !important;
         }
         li {
             list-style: none;
             padding: 7px;
             font-size: 1.0rem;
-            margin-left: -4%;
+            margin-left: -2%;
         }
     }
     
